@@ -1,0 +1,140 @@
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 60px;
+    background-color: #1F2937;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: #F9FAF8
+}
+
+.links{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.sub-header-container {
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 50px;
+}
+
+.sub-header-text {
+    padding: 20px;
+    color: #F9FaF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.heading-text {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #e5e7eb
+}
+
+.header-button {
+    width: 150px;
+    padding: 10px;
+}
+ 
+.sub-header-image {
+    display: flex;
+    padding: 20px;
+    width: 500px;
+    height: auto;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 0 60px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    border-color: black;
+}
+
+.card-img {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: orange;
+    padding: 60px;
+    font-size: 25px;
+    align-items: center;
+}
+
+.quote {
+    font-style: italic;
+}
+
+.quote-byline {
+    display: flex;
+    justify-content: right;
+    margin-top: 15px;
+}
+.action-container {
+    display: flex;
+    align-items: center;
+    margin: 50px 200px;
+    padding: 10px 80px;
+    background-color: #3882F6;
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    text-align: left;
+}
+
+.action-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+}
